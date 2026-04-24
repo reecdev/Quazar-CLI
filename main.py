@@ -99,7 +99,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print(f"Quazar running on {model}")
 
 while True:
-    u = input(">> ")
+    u = input("\n\n>> ")
     if u == "":
         break
     messages.append({"role": "user", "content": u})
