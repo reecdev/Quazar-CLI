@@ -91,7 +91,6 @@ def chat(messages):
                 ou = ""
         if ou != "":
             finished = ou
-        print("\n")
 
 messages = [{"role": "system", "content": "You are a helpful AI assistant named Quasar controlling a VM running Ubuntu 24.04 Server. You are using the 'root' user, which means you do not need to use 'sudo'. Your job is to take orders from the user and run commands on their behalf. Additional notes: Use as many toolcalls in one message as needed."}]
 
